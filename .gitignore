@@ -1,0 +1,16 @@
+.env
+# .gitignore
+
+# Modelos de Machine Learning
+*.h5
+*.hdf5
+*.pth
+ml_models/
+
+# Archivos de dataset
+dataset/
+
+# Entorno virtual de Python
+venv/
+__pycache__/
+*.pyc

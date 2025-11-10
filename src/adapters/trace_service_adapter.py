@@ -7,7 +7,7 @@ from src.config import settings
 
 class TraceServiceAdapter(ITraceServicePort):
     """
-    Implementación (Adaptador) del puerto para comunicarse con el TraceService.
+    Adaptador del puerto para comunicarse con el TraceService.
     """
     def notify_analysis_complete(self, practice_id: uuid.UUID, analysis_data: Dict[str, Any]) -> bool:
         """
